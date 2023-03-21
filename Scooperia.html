@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+
+<Head>
+
+  <meta charset="utf-8">
+
+  <link href="Back.css" rel="stylesheet" type="text/css" />
+  <script type="text/javascript" src='index.js'></script>
+  <title>Scooperia</title>
+
+
+  <link rel="icon" type="image/png" href='https://imgs.search.brave.com/kbsF2xKtpVlvAdCbCQ5kCyX4kzGcIBqMLADuG1G2_WI/rs:fit:512:512:1/g:ce/aHR0cHM6Ly9pbWFn/ZXMtbmEuc3NsLWlt/YWdlcy1hbWF6b24u/Y29tL2ltYWdlcy9J/LzgxQm9CbVduZ0pM/LnBuZw'>
+</Head>
+
+<body>
+
+  <center>
+    <div class="div">
+      <embed class="embed" src="https://isgames.github.io/scooperia/" style="height: 650px; width: 1300px;">
+    </div>
+
+    <button onclick="window.location.href = 'index.html';" class="Back">Back</button>
+
+    <button class="fullscreen">Fullscreen</button>
+
+
+  </center>
+  <script>
+    const BUTTON = document.querySelector('.fullscreen')
+    const EMBED = document.querySelector('.embed')
+
+    const toggleFullscreen = () => {
+      if (document.fullscreenElement)
+        document.exitFullscreen()
+      else
+        EMBED.requestFullscreen()
+    }
+
+    BUTTON.addEventListener('click', toggleFullscreen)
+  </script>
+</body>

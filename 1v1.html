@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+
+<Head>
+
+  <meta charset="utf-8">
+ 
+  <link href="Back.css" rel="stylesheet" type="text/css"/>
+  <script type="text/javascript" src='index.js'></script>
+  <title>1v1.LOL</title>
+  
+ 
+<link rel="icon" type="image/png" href="https://1v1.lol/img/favicon.png?v3"> 
+</Head>
+
+<body>
+
+  <center>
+     <div class="div">
+<embed class="embed" src="https://1v1.lol" style="height: 700px; width: 1300px;">
+     </div>
+        
+    <button onclick="window.location.href = 'index.html';" class="Back">Back</button>
+  
+    <button class="fullscreen">Fullscreen</button>
+
+ 
+</center>
+<script>
+const BUTTON = document.querySelector('.fullscreen')
+const EMBED = document.querySelector('.embed')
+
+const toggleFullscreen = () => {
+  if (document.fullscreenElement)
+    document.exitFullscreen()
+  else
+    EMBED.requestFullscreen()
+}
+
+BUTTON.addEventListener('click', toggleFullscreen)
+</script>
+</body>
+
+

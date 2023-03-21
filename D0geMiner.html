@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+
+<Head>
+
+  <meta charset="utf-8">
+   <script type="text/javascript" src='index.js'></script>
+  <link href="Back.css" rel="stylesheet" type="text/css"/>
+
+  <title>DogeMiner 2</title>
+        <link rel="icon"type="image/png" href='Pictures/retro.png'> 
+ <center>
+</Head>
+
+<body>
+  <center><h1>Scroll for better view and to go back</h1></center>
+       <button onclick="window.location.href = 'index.html';" class="Back">Back</button>
+    <button class="fullscreen">Fullscreen</button>
+
+<embed class="embed"src="https://dogeminer2.com/" style="height: 800px; width: 1300px;">
+   
+
+</center>
+
+
+<script>
+const BUTTON = document.querySelector('.fullscreen')
+const EMBED = document.querySelector('.embed')
+
+const toggleFullscreen = () => {
+  if (document.fullscreenElement)
+    document.exitFullscreen()
+  else
+    EMBED.requestFullscreen()
+}
+
+BUTTON.addEventListener('click', toggleFullscreen)
+</script>
+
+</body>
+
+
+ 

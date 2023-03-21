@@ -1,0 +1,25 @@
+Body {
+background-color: #262626;
+}
+.Back{
+background-color: #03fcd3;
+  width: 75px;
+  height: 75px;
+  border: none;
+  border-radius: 30px;
+  font-size: 20px;
+}
+p {
+  color: white;
+}
+h1 {
+color: white;
+}
+.fullscreen {
+  background-color: #03fcd3;
+  width: 105px;
+  height: 50px;
+  border: none;
+  border-radius: 40px;
+  font-size: 20px;
+}

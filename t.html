@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+
+<Head>
+
+  <meta charset="utf-8">
+
+  <link href="Back.css" rel="stylesheet" type="text/css" />
+  <script type="text/javascript" src='index.js'></script>
+  <title>Chess.com</title>
+
+
+  <link rel="icon" type="image/png" href='https://images.chesscomfiles.com/uploads/v1/images_users/tiny_mce/SamCopeland/phpmeXx6V.png'>
+</Head>
+
+<body>
+
+  <center>   
+    <div class="div">
+    <iframe class="embed" src="https://scratch.mit.edu/projects/389464290/embed" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no" allowfullscreen></iframe>
+    </div>
+      
+
+    <button onclick="window.location.href = 'index.html';" class="Back">Back</button>
+
+    <button class="fullscreen">Fullscreen</button>
+
+
+  </center>
+  <script>
+    const BUTTON = document.querySelector('.fullscreen')
+    const EMBED = document.querySelector('.embed')
+
+    const toggleFullscreen = () => {
+      if (document.fullscreenElement)
+        document.exitFullscreen()
+      else
+        EMBED.requestFullscreen()
+    }
+
+    BUTTON.addEventListener('click', toggleFullscreen)
+  </script>
+</body>
