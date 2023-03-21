@@ -102,25 +102,25 @@ height: 150px;
   width: 230px;
   border: none;
   border-radius: 10px;
-  height: 128px:
+  height: 128px;
 }
 .Game7:hover {
-  background: #141314;
+  background-color: #141314;
 }
 .Game8 {
-  background: #010001;
+  background-color: #010001;
   color: white;
   font-size: 45px;
   width: 230px;
   border: none;
   border-radius: 10px;
-  height: 100px:
+  height: 100px;
 }
 .Game8:hover {
-  background: #141314;
+  background-color: #141314;
 }
 .Game9 {
-  background: #1bb710;
+  background-color: #1bb710;
   color: white;
   font-size: 45px;
   width: 230px;
@@ -129,10 +129,10 @@ height: 150px;
   margin-top: 10px;
 }
 .Game9:hover {
-  background: #187e11;
+  background-color: #187e11;
 }
 .Game10 {
-  background: #8a67bc;
+  background-color: #8a67bc;
   color: white;
   font-size: 39px;
   width: 230px;
@@ -141,10 +141,10 @@ height: 150px;
   margin-top: 10px;
 }
 .Game10:hover {
-  background: #6c499c;
+  background-color: #6c499c;
 }
 .Game11 {
-  background: #2c4c15;
+  background-color: #2c4c15;
   color: white;
   font-size: 39px;
   width: 230px;
@@ -153,10 +153,10 @@ height: 150px;
   margin-top: 10px;
 }
 .Game11:hover {
-  background: #1d370b;
+  background-color: #1d370b;
 }
 .Game12 {
-  background: #fdfdff;
+  background-color: #fdfdff;
   color: black;
   font-size: 35px;
   width: 230px;
@@ -165,7 +165,19 @@ height: 150px;
   margin-top: 10px;
 }
 .Game12:hover {
-  background: #6e6e77;
+  background-color: #6e6e77;
+}
+.Game13 {
+  background-color: #211e1e;
+  color: rgb(255, 255, 255);
+  font-size: 35px;
+  width: 230px;
+  border: none;
+  border-radius: 10px;
+}
+.game13:hover {
+background-color: #484141;
+}
 
   
 
