@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+
+<Head>
+
+  <meta charset="utf-8">
+
+  <link href="Back.css" rel="stylesheet" type="text/css" />
+  <script type="text/javascript" src='index.js'></script>
+  <title>Drift Hunters</title>
+
+
+  <link rel="icon" type="image/png" href='https://play-lh.googleusercontent.com/pl60B3sxB0N3fH1LeepWWUUxIErNb0NAv4LeqKlONKIwsZswQ6B7UbjibB2ZzOw1dQ'>
+</Head>
+
+<body>
+
+  <center>   
+    <div class="div">
+    <embed class="embed">https://v6p9d9t4.ssl.hwcdn.net/html/1792221/ItchIO/index.html
+</embed>
+    </div>
+      
+
+    <button onclick="window.location.href = 'index.html';" class="Back">Back</button>
+
+    <button class="fullscreen">Fullscreen</button>
+
+
+  </center>
+  <script>
+    const BUTTON = document.querySelector('.fullscreen')
+    const EMBED = document.querySelector('.embed')
+
+    const toggleFullscreen = () => {
+      if (document.fullscreenElement)
+        document.exitFullscreen()
+      else
+        EMBED.requestFullscreen()
+    }
+
+    BUTTON.addEventListener('click', toggleFullscreen)
+  </script>
+</body>
