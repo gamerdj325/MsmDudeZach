@@ -180,6 +180,17 @@ height: 150px;
 .Game13:hover {
 background-color: #484141;
 }
+.Game14 {
+  background-color: #f8f6f9;
+  color: rgb(255, 255, 255);
+  font-size: 30px;
+  width: 230px;
+  border: none;
+  border-radius: 10px;
+}
+.Game14:hover {
+background-color: #484141;
+}
 
   
 
