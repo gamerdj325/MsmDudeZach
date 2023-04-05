@@ -185,7 +185,7 @@ background-color: #484141;
   color: rgb(0, 0, 0);
   font-size: 30px;
   width: 230px;
-  border: none;
+  border: 10px;
   border-radius: 10px;
 }
 .Game14:hover {
