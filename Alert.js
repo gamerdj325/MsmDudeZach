@@ -1,1 +1,1 @@
-alert("This is supposed to be private so ALWAYS be on fullscreen");
+alert("Put Fullscreen on so this stays PRIVATE");
