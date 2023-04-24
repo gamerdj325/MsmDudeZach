@@ -203,6 +203,17 @@ background-color: #a9a9a9;
 .Game15:hover {
 background-color: rgb(5, 5, 5)
 }
+.credits {
+  Float: left;
+  width: 100px;
+  height: 50px;
+  Background-color: black;
+  Color: white;
+  Border: none;
+  Border-radius: 10px;
+  font-family: sans-serif;
+  font-size: 20px;
+}
 
   
 
