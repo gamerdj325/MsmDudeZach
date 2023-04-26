@@ -1,0 +1,42 @@
+!DOCTYPE html>
+
+<Head>
+
+  <meta charset="utf-8">
+
+  <link href="Back.css" rel="stylesheet" type="text/css" />
+  <script type="text/javascript" src='index.js'></script>
+  <title>Cookie clicker</title>
+
+
+  <link rel="icon" type="image/png" href='https://static.wikia.nocookie.net/cookieclicker/images/5/5a/PerfectCookie.png/revision/latest?cb=20130827014912'>
+</Head>
+
+<body>
+
+  <center>   
+    <div class="div">
+    <embed class="embed" src="https://hole-io.com/" style="height: 650px; width: 1100px;" >   
+  </div>
+      
+
+    <button onclick="window.location.href = 'index.html';" class="Back">Back</button>
+
+    <button class="fullscreen">Fullscreen</button>
+
+
+  </center>
+  <script>
+    const BUTTON = document.querySelector('.fullscreen')
+    const EMBED = document.querySelector('.embed')
+
+    const toggleFullscreen = () => {
+      if (document.fullscreenElement)
+        document.exitFullscreen()
+      else
+        EMBED.requestFullscreen()
+    }
+
+    BUTTON.addEventListener('click', toggleFullscreen)
+  </script>
+</body>
