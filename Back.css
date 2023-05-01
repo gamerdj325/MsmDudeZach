@@ -23,3 +23,12 @@ color: white;
   border-radius: 40px;
   font-size: 20px;
 }
+.modded {
+  background-color: #03fcd3;
+  width: 85px;
+  height:45px;
+  border: none;
+  border-radius: 40px;
+  font-size: 20px;
+
+}
