@@ -1,34 +1,50 @@
 Body {
-background-color: #262626;
-}
-.Back{
-background-color: #03fcd3;
-  width: 75px;
-  height: 75px;
-  border: none;
-  border-radius: 30px;
-  font-size: 20px;
-}
-p {
+  background-color: #262626;
+  }
+  .Back{
+  background-color: #03fcd3;
+    width: 75px;
+    height: 75px;
+    border: none;
+    border-radius: 30px;
+    font-size: 20px;
+  }
+  p {
+    color: white;
+  }
+  h1 {
   color: white;
-}
-h1 {
-color: white;
-}
-.fullscreen {
+  }
+  .fullscreen {
+    background-color: #03fcd3;
+    width: 105px;
+    height: 50px;
+    border: none;
+    border-radius: 40px;
+    font-size: 20px;
+  }
+  .modded {
+    background-color: #03fcd3;
+    width: 85px;
+    height:45px;
+    border: none;
+    border-radius: 40px;
+    font-size: 20px;
+  
+  }
+  .lunadown {
+  background:red;
+  font-family: arial;
+  }
+  .lunadown2{
+  font-family: arial;
+  color:white;
+  }
+  .lunalink{
+  Font-size: 20px;
+  border: 5px solid;
+  border-color: black;
+  Height: 70px;
+  border-radius:10px;
   background-color: #03fcd3;
-  width: 105px;
-  height: 50px;
-  border: none;
-  border-radius: 40px;
-  font-size: 20px;
-}
-.modded {
-  background-color: #03fcd3;
-  width: 85px;
-  height:45px;
-  border: none;
-  border-radius: 40px;
-  font-size: 20px;
-
-}
+  }
