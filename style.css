@@ -1,239 +1,251 @@
 html {
-    height: 100%;
-    width: 100%;
-  }
-  
-  .Title {
-  Background: blue;
-  font-family: sans-serif;
-  }
-  body{
-  background-color: blue ;
-        font-family: Cascadia Code;
-  color: white;
-  }
-  .Game {
-  Width: 230px;
-  border-radius: 10px;
-  border: none;
-  background-color: #4e901e;
-  font-size: 35px;
-  }
-  small {
-  font-size: 9px;
-  }
-  .Game:hover {
+  height: 100%;
+  width: 100%;
+}
+
+.Title {
+Background: blue;
+font-family: sans-serif;
+}
+body{
+background-color: blue ;
+      font-family: Cascadia Code;
+color: white;
+}
+.Game {
+Width: 230px;
+border-radius: 10px;
+border: none;
+background-color: #4e901e;
+font-size: 35px;
+}
+small {
+font-size: 9px;
+}
+.Game:hover {
+  background-color: #3e800e;
+}
+.game1 {
+Width: 250px;
+border-radius: 10px;
+border: none;
+background-color: #ffffff;
+font-size: 35px;
+margin-left: 10px;
+}
+.game1:hover {
+  background-color: #dcdcdc;
+}
+.game2 {
+Width: 250px;
+border-radius: 10px;
+border: none;
+background-color: #0a2049;
+font-size: 35px;
+color: white;
+}
+.game2:hover {
+  background-color: #00163f;
+}
+.game3 {
+Width: 250px;
+border-radius: 10px;
+border: none;
+background-color: #000000;
+color: white;
+font-size: 41px;
+margin-top: 10px;
+height: 150px;
+}
+.game3:hover {
+background-color: #101010;  
+}
+.Game4 {
+Width: 250px;
+border-radius: 10px;
+border: none;
+background-color: #ff051e;
+font-size: 23px;
+margin-left: 10px;
+height: 150px;
+}
+.Game5 {
+Width: 230px;
+border-radius: 10px;
+border: none;
+background-color: #4e901e;
+font-size: 35px;
+height: 150px;
+}
+.Game5:hover {
     background-color: #3e800e;
-  }
-  .game1 {
-  Width: 250px;
-  border-radius: 10px;
-  border: none;
-  background-color: #ffffff;
-  font-size: 35px;
-  margin-left: 10px;
-  }
-  .game1:hover {
-    background-color: #dcdcdc;
-  }
-  .game2 {
-  Width: 250px;
-  border-radius: 10px;
-  border: none;
-  background-color: #0a2049;
-  font-size: 35px;
+}
+.Game4:hover {
+  background-color: #d60015;
+}
+.Game6 {
   color: white;
-  }
-  .game2:hover {
-    background-color: #00163f;
-  }
-  .game3 {
-  Width: 250px;
-  border-radius: 10px;
+  background-color: black;
+  Margin-top: 10px;
   border: none;
-  background-color: #000000;
+  border-radius: 10px;
+  font-size: 35px;
+  width: 230px;
+  height: 128px;
+}
+.Game6:hover {
+  background-color: #1c1c1c;
+}
+.Game7 {
+  background: #010001;
   color: white;
-  font-size: 41px;
+  font-size: 40px;
+  width: 230px;
+  border: none;
+  border-radius: 10px;
+  height: 128px;
+}
+.Game7:hover {
+  background-color: #141314;
+}
+.Game8 {
+  background-color: #010001;
+  color: white;
+  font-size: 45px;
+  width: 230px;
+  border: none;
+  border-radius: 10px;
+  height: 128px;
+}
+.Game8:hover {
+  background-color: #141314;
+}
+.Game9 {
+  background-color: #1bb710;
+  color: white;
+  font-size: 45px;
+  width: 230px;
+  border: none;
+  border-radius: 10px;
   margin-top: 10px;
-  height: 150px;
-  }
-  .game3:hover {
-  background-color: #101010;  
-  }
-  .Game4 {
-  Width: 250px;
-  border-radius: 10px;
+}
+.Game9:hover {
+  background-color: #187e11;
+}
+.Game10 {
+  background-color: #8a67bc;
+  color: white;
+  font-size: 39px;
+  width: 230px;
   border: none;
-  background-color: #ff051e;
-  font-size: 23px;
-  margin-left: 10px;
-  height: 150px;
-  }
-  .Game5 {
-  Width: 230px;
   border-radius: 10px;
+  margin-top: 10px;
+}
+.Game10:hover {
+  background-color: #6c499c;
+}
+.Game11 {
+  background-color: #2c4c15;
+  color: white;
+  font-size: 39px;
+  width: 230px;
   border: none;
-  background-color: #4e901e;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+.Game11:hover {
+  background-color: #1d370b;
+}
+.Game12 {
+  background-color: #fdfdff;
+  color: black;
   font-size: 35px;
-  height: 150px;
-  }
-  .Game5:hover {
-      background-color: #3e800e;
-  }
-  .Game4:hover {
-    background-color: #d60015;
-  }
-  .Game6 {
-    color: white;
-    background-color: black;
-    Margin-top: 10px;
-    border: none;
-    border-radius: 10px;
-    font-size: 35px;
-    width: 230px;
-    height: 128px;
-  }
-  .Game6:hover {
-    background-color: #1c1c1c;
-  }
-  .Game7 {
-    background: #010001;
-    color: white;
-    font-size: 40px;
-    width: 230px;
-    border: none;
-    border-radius: 10px;
-    height: 128px;
-  }
-  .Game7:hover {
-    background-color: #141314;
-  }
-  .Game8 {
-    background-color: #010001;
-    color: white;
-    font-size: 45px;
-    width: 230px;
-    border: none;
-    border-radius: 10px;
-    height: 128px;
-  }
-  .Game8:hover {
-    background-color: #141314;
-  }
-  .Game9 {
-    background-color: #1bb710;
-    color: white;
-    font-size: 45px;
-    width: 230px;
-    border: none;
-    border-radius: 10px;
-    margin-top: 10px;
-  }
-  .Game9:hover {
-    background-color: #187e11;
-  }
-  .Game10 {
-    background-color: #8a67bc;
-    color: white;
-    font-size: 39px;
-    width: 230px;
-    border: none;
-    border-radius: 10px;
-    margin-top: 10px;
-  }
-  .Game10:hover {
-    background-color: #6c499c;
-  }
-  .Game11 {
-    background-color: #2c4c15;
-    color: white;
-    font-size: 39px;
-    width: 230px;
-    border: none;
-    border-radius: 10px;
-    margin-top: 10px;
-  }
-  .Game11:hover {
-    background-color: #1d370b;
-  }
-  .Game12 {
-    background-color: #fdfdff;
-    color: black;
-    font-size: 35px;
-    width: 230px;
-    border: none;
-    border-radius: 10px;
-    margin-top: 10px;
-  }
-  .Game12:hover {
-    background-color: #6e6e77;
-  }
-  .Game13 {
-    background-color: #211e1e;
-    color: rgb(255, 255, 255);
-    font-size: 30px;
-    width: 230px;
-    border: none;
-    border-radius: 10px;
-  }
-  .Game13:hover {
-  background-color: #484141;
-  }
-  .Game14 {
-    background-color: #f8f6f9;
-    color: rgb(0, 0, 0);
-    font-size: 30px;
-    width: 230px;
-    border: none;
-    border-radius: 10px;
-  }
-  .Game14:hover {
-  background-color: #a9a9a9;
-  }
-  .Game15 {
-    background-color: #130131;
-    color: rgb(255, 255, 255);
-    font-size: 30px;
-    width: 230px;
-    border: none;
-    border-radius: 10px;
-    margin-top: 10px;
-  }
-  .Game15:hover {
-  background-color: rgb(5, 5, 5)
-  }
-  .credits {
-    Float: left;
-    width: 100px;
-    height: 50px;
-    Background-color: rgb(30,30,30);
-    Color: white;
-    Border: none;
-    Border-radius: 10px;
-    font-family: sans-serif;
-    font-size: 20px;
-  }
-  .credits:hover {
-  background-color: black;
-  }
-  .Game16 {
-  color: white;
-  width: 225px;
-  background-color: black;
+  width: 230px;
   border: none;
-  font-size: 30px;
-   font-family: sans-serif;
   border-radius: 10px;
-  }
+  margin-top: 10px;
+}
+.Game12:hover {
+  background-color: rgb(200,200,200);
+}
+.Game13 {
+  background-color: #211e1e;
+  color: rgb(255, 255, 255);
+  font-size: 30px;
+  width: 230px;
+  border: none;
+  border-radius: 10px;
+}
+.Game13:hover {
+background-color: #484141;
+}
+.Game14 {
+  background-color: #f8f6f9;
+  color: rgb(0, 0, 0);
+  font-size: 30px;
+  width: 230px;
+  border: none;
+  border-radius: 10px;
+}
+.Game14:hover {
+background-color: #a9a9a9;
+}
+.Game15 {
+  background-color: #130131;
+  color: rgb(255, 255, 255);
+  font-size: 30px;
+  width: 230px;
+  border: none;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+.Game15:hover {
+background-color: rgb(5, 5, 5)
+}
+.credits {
+  Float: left;
+  width: 100px;
+  height: 50px;
+  Background-color: rgb(30,30,30);
+  Color: white;
+  Border: none;
+  Border-radius: 10px;
+  font-family: sans-serif;
+  font-size: 20px;
+}
+.credits:hover {
+background-color: black;
+}
+.Game16 {
+color: white;
+width: 225px;
+background-color: black;
+border: none;
+font-size: 30px;
+ font-family: sans-serif;
+border-radius: 10px;
+}
 .Game17 {
-  color: white;
-  width: 225px;
-  background-color: rgb(10,10,10);
-  border: none;
-  font-size: 30px;
-   font-family: sans-serif;
-  border-radius: 10px;
+color: white;
+width: 225px;
+background-color: rgb(10,10,10);
+border: none;
+font-size: 30px;
+ font-family: sans-serif;
+border-radius: 10px;
 }
 .Game17:hover {
-  background-color: rgb(0,0,0);
+background-color: rgb(0,0,0);
 }
+.Game18 {
+margin-top: 10px;
+background-color: rgb(0,0,0);
+border: none;
+width: 220px;
+border-radius: 10px;
+height: 120px;
+font-family: sans-serif;
+font-size: 30px;
+color: white;
+}
+
