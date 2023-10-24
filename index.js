@@ -21,7 +21,7 @@ app.use(
 app.use(express.static(path.join(__dirname, 'static')));
 
 const routes = [
-  { path: '/home', file: 'index.html' },
+  { path: '/', file: 'index.html' },
   { path: '/news', file: 'apps.html' },
   { path: '/algebra', file: 'games.html' },
   { path: '/settings', file: 'settings.html' },
