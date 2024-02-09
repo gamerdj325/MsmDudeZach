@@ -25,6 +25,8 @@ font-size: 9px;
 }
 .Game:hover {
   background-color: #3e800e;
+  transform: scale(1.1,1.1);
+  cursor: pointer;
 }
 .game1 {
 Width: 250px;
@@ -320,4 +322,10 @@ height: 120px;
 font-family: sans-serif;
 font-size: 30px;
 color: white;
-}}
+}
+.Game18:hover{
+  transform: scale(1.1,1.1);
+cursor: pointer;
+
+}
+}
