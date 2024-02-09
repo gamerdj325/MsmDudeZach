@@ -36,8 +36,8 @@ transition: all .8s;
 }
 .game1:hover {
   background-color: #dcdcdc;
-  transition: scale(1.1,1.1);
-  
+  transform: scale(1.1,1.1);
+  cursor: pointer;
 }
 .game2 {
 Width: 250px;
