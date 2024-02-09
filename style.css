@@ -18,6 +18,7 @@ border-radius: 10px;
 border: none;
 background-color: #4e901e;
 font-size: 35px;
+transition: all .8s;
 }
 small {
 font-size: 9px;
@@ -46,6 +47,7 @@ border: none;
 background-color: #0a2049;
 font-size: 35px;
 color: white;
+transition: all .8s;
 }
 .game2:hover {
   background-color: #00163f;
@@ -62,6 +64,7 @@ color: white;
 font-size: 41px;
 margin-top: 10px;
 height: 150px;
+transition: all .8s;
 }
 .game3:hover {
 background-color: #101010;  
@@ -77,6 +80,7 @@ background-color: #ff051e;
 font-size: 23px;
 margin-left: 10px;
 height: 150px;
+transition: all .8s;
 }
 .Game5 {
 Width: 230px;
@@ -84,6 +88,7 @@ border-radius: 10px;
 border: none;
 background-color: #4e901e;
 font-size: 35px;
+transition: all .8s;
 height: 150px;
 }
 .Game5:hover {
@@ -107,6 +112,7 @@ height: 150px;
   font-size: 35px;
   width: 230px;
   height: 128px;
+  transition: all .8s;
 }
 .Game6:hover {
   background-color: #1c1c1c;
@@ -122,6 +128,7 @@ height: 150px;
   border: none;
   border-radius: 10px;
   height: 128px;
+  transition: all .8s;
 }
 .Game7:hover {
   background-color: #141314;
@@ -137,6 +144,7 @@ height: 150px;
   border: none;
   border-radius: 10px;
   height: 128px;
+  transition: all .8s;
 }
 .Game8:hover {
   background-color: #141314;
@@ -152,6 +160,7 @@ height: 150px;
   border: none;
   border-radius: 10px;
   margin-top: 10px;
+  transition: all .8s;
 }
 .Game9:hover {
   background-color: #187e11;
@@ -167,6 +176,7 @@ height: 150px;
   border: none;
   border-radius: 10px;
   margin-top: 10px;
+  transition: all .8s;
 }
 .Game10:hover {
   background-color: #6c499c;
@@ -179,6 +189,7 @@ height: 150px;
   color: white;
   font-size: 39px;
   width: 230px;
+  transition: all .8s;
   border: none;
   border-radius: 10px;
   margin-top: 10px;
@@ -192,6 +203,7 @@ height: 150px;
 .Game12 {
   background-color: #fdfdff;
   color: black;
+  transition: all .8s;
   font-size: 35px;
   width: 230px;
   border: none;
@@ -210,6 +222,7 @@ height: 150px;
   font-size: 30px;
   width: 230px;
   border: none;
+  transition: all .8s;
   border-radius: 10px;
 }
 .Game13:hover {
@@ -223,6 +236,7 @@ cursor: pointer;
   color: rgb(0, 0, 0);
   font-size: 30px;
   width: 230px;
+  transition: all .8s;
   border: none;
   border-radius: 10px;
 }
@@ -239,6 +253,7 @@ cursor: pointer;
   width: 230px;
   border: none;
   border-radius: 10px;
+  transition: all .8s;
   margin-top: 10px;
 }
 .Game15:hover {
@@ -256,6 +271,7 @@ cursor: pointer; }
   Border-radius: 10px;
   font-family: sans-serif;
   font-size: 20px;
+  transition: all .8s;
 
 .credits:hover {
 background-color: black;
@@ -270,6 +286,7 @@ border: none;
 font-size: 30px;
  font-family: sans-serif;
 border-radius: 10px;
+transition: all .8s;
 }
 .Game16:hover{
   transform: scale(1.1,1.1);
@@ -284,6 +301,7 @@ border: none;
 font-size: 30px;
  font-family: sans-serif;
 border-radius: 10px;
+transition: all .8s;
 }
 .Game17:hover {
 background-color: rgb(0,0,0);
@@ -295,6 +313,7 @@ cursor: pointer;
 margin-top: 10px;
 background-color: rgb(0,0,0);
 border: none;
+transition: all .8s;
 width: 220px;
 border-radius: 10px;
 height: 120px;
