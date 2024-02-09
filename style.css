@@ -32,10 +32,12 @@ border: none;
 background-color: #ffffff;
 font-size: 35px;
 margin-left: 10px;
+transition: all .8s;
 }
 .game1:hover {
   background-color: #dcdcdc;
-  padding: 80%;
+  transition: scale(1.1,1.1);
+  
 }
 .game2 {
 Width: 250px;
