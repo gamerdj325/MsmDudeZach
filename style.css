@@ -1,330 +1,282 @@
-html {
-  height: 100%;
-  width: 100%;
-}
-
-.Title {
-Background: blue;
-font-family: sans-serif;
-}
-body{
-background-color: blue ;
-      font-family: Cascadia Code;
-color: white;
-}
-.Game {
-Width: 230px;
-border-radius: 10px;
-border: none;
-background-color: #4e901e;
-font-size: 35px;
-transition: all .8s;
-}
-small {
-font-size: 9px;
-}
-.Game:hover {
-  background-color: #3e800e;
-  transform: scale(1.1,1.1);
-  cursor: pointer;
-}
-.game1 {
-Width: 250px;
-border-radius: 10px;
-border: none;
-background-color: #ffffff;
-font-size: 35px;
-margin-left: 10px;
-transition: all .8s;
-}
-.game1:hover {
-  background-color: #dcdcdc;
-  transform: scale(1.1,1.1);
-  cursor: pointer;
-}
-.game2 {
-Width: 250px;
-border-radius: 10px;
-border: none;
-background-color: #0a2049;
-font-size: 35px;
-color: white;
-transition: all .8s;
-}
-.game2:hover {
-  background-color: #00163f;
-  transform: scale(1.1,1.1);
-  cursor: pointer;
-}
-
-.game3 {
-Width: 250px;
-border-radius: 10px;
-border: none;
-background-color: #000000;
-color: white;
-font-size: 41px;
-margin-top: 10px;
-height: 150px;
-transition: all .8s;
-}
-.game3:hover {
-background-color: #101010;  
-transform: scale(1.1,1.1);
-cursor: pointer;
-}
-
-.Game4 {
-Width: 250px;
-border-radius: 10px;
-border: none;
-background-color: #ff051e;
-font-size: 23px;
-margin-left: 10px;
-height: 150px;
-transition: all .8s;
-}
-.Game5 {
-Width: 230px;
-border-radius: 10px;
-border: none;
-background-color: #4e901e;
-font-size: 35px;
-transition: all .8s;
-height: 150px;
-}
-.Game5:hover {
-    background-color: #3e800e;
-    transform: scale(1.1,1.1);
-    cursor: pointer;
+Body{
+  Background-color: black;
   }
-
-.Game4:hover {
-  background-color: #d60015;
-  transform: scale(1.1,1.1);
-  cursor: pointer;
-}
-
-.Game6 {
-  color: white;
-  background-color: black;
-  Margin-top: 10px;
-  border: none;
-  border-radius: 10px;
+  .Title{
+  color:white; 
+  Font-family: sans-serif;
   font-size: 35px;
-  width: 230px;
-  height: 128px;
-  transition: all .8s;
-}
-.Game6:hover {
-  background-color: #1c1c1c;
-  transform: scale(1.1,1.1);
+  }
+  .Retro-Bowl{
+  Font-family: sans-serif;
+  border-radius: 10px;
+  border: none;
+  height: 150px;
+  width: 110px;
   cursor: pointer;
-}
-
-.Game7 {
-  background: #010001;
-  color: white;
-  font-size: 40px;
-  width: 230px;
-  border: none;
-  border-radius: 10px;
-  height: 128px;
-  transition: all .8s;
-}
-.Game7:hover {
-  background-color: #141314;
-  transform: scale(1.1,1.1);
-  cursor: pointer;
-}
-
-.Game8 {
-  background-color: #010001;
-  color: white;
-  font-size: 45px;
-  width: 230px;
-  border: none;
-  border-radius: 10px;
-  height: 128px;
-  transition: all .8s;
-}
-.Game8:hover {
-  background-color: #141314;
-  transform: scale(1.1,1.1);
-  cursor: pointer;
-}
-
-.Game9 {
-  background-color: #1bb710;
-  color: white;
-  font-size: 45px;
-  width: 230px;
-  border: none;
-  border-radius: 10px;
-  margin-top: 10px;
-  transition: all .8s;
-}
-.Game9:hover {
-  background-color: #187e11;
-  transform: scale(1.1,1.1);
-  cursor: pointer;
-}
-
-.Game10 {
-  background-color: #8a67bc;
-  color: white;
-  font-size: 39px;
-  width: 230px;
-  border: none;
-  border-radius: 10px;
-  margin-top: 10px;
-  transition: all .8s;
-}
-.Game10:hover {
-  background-color: #6c499c;
-  transform: scale(1.1,1.1);
-  cursor: pointer;
-}
-
-.Game11 {
-  background-color: #2c4c15;
-  color: white;
-  font-size: 39px;
-  width: 230px;
-  transition: all .8s;
-  border: none;
-  border-radius: 10px;
-  margin-top: 10px;
-}
-.Game11:hover {
-  background-color: #1d370b;
-  transform: scale(1.1,1.1);
-  cursor: pointer;
-}
-
-.Game12 {
-  background-color: #fdfdff;
-  color: black;
-  transition: all .8s;
-  font-size: 35px;
-  width: 230px;
-  border: none;
-  border-radius: 10px;
-  margin-top: 10px;
-}
-.Game12:hover {
-  background-color: rgb(200,200,200);
-  transform: scale(1.1,1.1);
-  cursor: pointer;
-}
-
-.Game13 {
-  background-color: #211e1e;
-  color: rgb(255, 255, 255);
-  font-size: 30px;
-  width: 230px;
-  border: none;
-  transition: all .8s;
-  border-radius: 10px;
-}
-.Game13:hover {
-background-color: #484141;
-transform: scale(1.1,1.1);
-cursor: pointer;
-}
-
-.Game14 {
-  background-color: #f8f6f9;
-  color: rgb(0, 0, 0);
-  font-size: 30px;
-  width: 230px;
-  transition: all .8s;
-  border: none;
-  border-radius: 10px;
-}
-.Game14:hover {
-background-color: #a9a9a9;
-transform: scale(1.1,1.1);
-cursor: pointer;
-}
-
-.Game15 {
-  background-color: #130131;
-  color: rgb(255, 255, 255);
-  font-size: 30px;
-  width: 230px;
-  border: none;
-  border-radius: 10px;
-  transition: all .8s;
-  margin-top: 10px;
-}
-.Game15:hover {
-background-color: rgb(5, 5, 5);
-transform: scale(1.1,1.1);
-cursor: pointer; }
-
-.credits {
-  Float: left;
-  width: 100px;
-  height: 50px;
-  Background-color: rgb(30,30,30);
-  Color: white;
-  Border: none;
-  Border-radius: 10px;
-  font-family: sans-serif;
+  box-shadow: 0px 0px 17px 10px red;
+  transition: 1s;
+  background-color: rgb(80,143,36,255); 
   font-size: 20px;
-  transition: all .8s;
-}
-.credits:hover {
-background-color: black;
-transform: scale(1.1,1.1);
-cursor: pointer;
-}
-.Game16 {
-color: white;
-width: 225px;
-background-color: black;
-border: none;
-font-size: 30px;
- font-family: sans-serif;
-border-radius: 10px;
-transition: all .8s;
-}
-.Game16:hover{
-  transform: scale(1.1,1.1);
+  }
+  .Retro-Bowl:hover{
+  transform:scale(1.1,1.1);
+  box-shadow: 0px 0px 15px 10px blue;
+  }
+  .Credits{
+  float: left; 
+  margin-top: 30px;
+  cursor: pointer; 
+  border: none;
+  width: 110px;
+  height: 40px;
+  text-align: center;
+  border-radius: 10px;
+  font-size: 25px;
+  transition: .5s;
+  box-shadow: 0px 0px 20px 5px white;
+  }
+  .Credits:hover{
+  transform:scale(1.1,1.1);
+  box-shadow: 0px 0px 20px 5px white;
+  font-size: 25px;
+  
+  }
+  .Snow-Rider {
+  border:none ;
+  border-radius: 10px;
+  margin-left: 28px;
+  box-shadow: 0px 0px 17px 10px red;
+  width: 110px;
+  height: 150px;
+  font-size: 20px;
+  transition: 1s; 
   cursor: pointer;
-}
-
-.Game17 {
-color: white;
-width: 225px;
-background-color: rgb(10,10,10);
-border: none;
-font-size: 30px;
- font-family: sans-serif;
-border-radius: 10px;
-transition: all .8s;
-}
-.Game17:hover {
-background-color: rgb(0,0,0);
-transform: scale(1.1,1.1);
-cursor: pointer;
-}
-
-.Game18 {
-margin-top: 10px;
-background-color: rgb(0,0,0);
-border: none;
-transition: all .8s;
-width: 220px;
-border-radius: 10px;
-height: 120px;
-font-family: sans-serif;
-font-size: 30px;
-color: white;
-}
-.Game18:hover{
-  transform: scale(1.1,1.1);
-cursor: pointer;
-
-}
+  }
+  .Snow-Rider:hover{
+  transform:scale(1.1,1.1);
+  box-shadow: 0px 0px 15px 10px blue;
+  }
+  .Doge-Miner{
+  Width: 110px;
+  height: 150px;
+  margin-left: 28px;
+  border: none;
+  border-radius: 10px; 
+  transition: 1s;
+  background-color: rgba(254,238,189,255);
+  box-shadow: 0px 0px 17px 10px red;
+  Font-size:18px;
+  }
+  .Doge-Miner:hover {
+  box-shadow: 0px 0px 15px 10px blue;
+  transform:scale(1.1,1.1);
+  cursor: pointer;
+  }
+  .fort{
+  Width: 110px;
+  height: 150px;
+  margin-left: 28px;
+  border: none;
+  border-radius: 10px; 
+  transition: 1s;
+  background-color: rgb(80,198,243);
+  box-shadow: 0px 0px 17px 10px red;
+  Font-size:24px;
+  }
+  .fort:hover{
+  box-shadow: 0px 0px 15px 10px blue;
+  transform:scale(1.1,1.1);
+  cursor: pointer;
+  }
+  .fnaf1{
+  Width: 110px;
+  height: 150px;
+  margin-left: 28px;
+  border: none;
+  border-radius: 10px; 
+  transition: 1s;
+  background-color: black;
+  box-shadow: 0px 0px 17px 10px red;
+  Font-size:24px;
+  color: white;
+  }
+  .fnaf1:hover{
+  box-shadow: 0px 0px 15px 10px blue;
+  transform:scale(1.1,1.1);
+  cursor: pointer;
+  }
+  .mopeio {
+  Width: 110px;
+  height: 150px;
+  margin-left: 28px;
+  border: none;
+  border-radius: 10px; 
+  transition: 1s;
+  background-color: rgb(62,187,85);
+  box-shadow: 0px 0px 17px 10px red;
+  Font-size:24px;
+  }
+  .mopeio:hover{
+  box-shadow: 0px 0px 15px 10px blue;
+  transform:scale(1.1,1.1);
+  cursor: pointer;
+  }
+  .Slope{
+  Width: 110px; 
+  height: 150px;
+  border: none;
+  border-radius: 10px; 
+  transition: 1s;
+  background-color: black;
+  box-shadow: 0px 0px 17px 10px red;
+  Font-size:26px;
+  color:white;
+  margin-left: 28px; 
+  }
+  .Slope:hover{
+  box-shadow: 0px 0px 15px 10px blue;
+  transform:scale(1.1,1.1);
+  cursor: pointer;
+  }
+  .Minecraft{
+  Width: 110px;
+  height: 150px;
+  border: none;
+  border-radius: 10px; 
+  transition: 1s;
+  background-color: #1bb710;
+  box-shadow: 0px 0px 17px 10px red;
+  Font-size:23px;}
+  .Minecraft:hover {
+  box-shadow: 0px 0px 15px 10px blue;
+  transform:scale(1.1,1.1);
+  cursor: pointer;
+  }
+  .Scooperia{
+  Width: 110px;
+  
+  height: 150px;
+  margin-left: 28px;
+  border: none;
+  border-radius: 10px; 
+  transition: 1s;
+  background-color: #8a67bc;
+  box-shadow: 0px 0px 17px 10px red;
+  Font-size:20px;
+  }
+  .Scooperia:hover{
+  box-shadow: 0px 0px 15px 10px blue;
+  transform:scale(1.1,1.1);
+  cursor: pointer;}
+  .Pizzeria{
+  Width: 110px;
+  height: 150px;
+  margin-left: 28px;
+  border: none;
+  border-radius: 10px; 
+  transition: 1s;
+  background-color: #2c4c15;
+  box-shadow: 0px 0px 17px 10px red;
+  Font-size:22px;
+  color: white;
+  }
+  .Pizzeria:hover{
+  box-shadow: 0px 0px 15px 10px blue;
+  transform:scale(1.1,1.1);
+  cursor: pointer;}
+  .Krunker{
+  Width: 110px; 
+  height: 150px;
+  margin-left: 28px;
+  border: none;
+  border-radius: 10px; 
+  transition: 1s;
+  background-color: rgb(130,140,152);
+  box-shadow: 0px 0px 17px 10px red;
+  Font-size:22px;
+  color: black;
+  }
+  .Krunker:hover{
+  box-shadow: 0px 0px 15px 10px blue;
+  transform:scale(1.1,1.1);
+  cursor: pointer;
+  }
+  .Overit{
+  Width: 110px;
+  margin-top:25px; 
+  height: 150px;
+  margin-left: 28px;
+  border: none;
+  border-radius: 10px; 
+  transition: 1s;
+  background-color: rgb(255,255,255);
+  box-shadow: 0px 0px 17px 10px red;
+  Font-size:18px;
+  color: black;
+  }
+  .Drift {
+  Width: 110px;
+  margin-top:25px; 
+  height: 150px;
+  margin-left: 28px;
+  border: none;
+  border-radius: 10px; 
+  transition: 1s;
+  background-color: #1c0f18;
+  box-shadow: 0px 0px 17px 10px red;
+  Font-size:20px;
+  color: white;
+  }
+  img{
+  border-radius: 10px;
+  }
+  .Subway{
+  Width: 110px;
+  margin-top:25px; 
+  height: 150px;
+  margin-left: 28px;
+  border: none;
+  border-radius: 10px; 
+  transition: 1s;
+  background-color: #130131;
+  box-shadow: 0px 0px 17px 10px red;
+  Font-size:20px;
+  color: white;
+  }
+  .Hole{ 
+  Width: 110px;
+  margin-top:25px; 
+  height: 150px;
+  margin-left: 28px;
+  border: none;
+  border-radius: 10px; 
+  transition: 1s;
+  background-color: black;
+  box-shadow: 0px 0px 17px 10px red;
+  Font-size:25px;
+  color: white;
+  }
+  .OvO{
+  Width: 110px;
+  margin-top:25px; 
+  height: 150px;
+  margin-left: 28px;
+  border: none;
+  border-radius: 10px; 
+  transition: 1s;
+  background-color: black;
+  box-shadow: 0px 0px 17px 10px red;
+  Font-size:25px;
+  color: white;
+  }
+  .Shell{
+  Width: 110px;
+  margin-top:25px; 
+  height: 150px;
+  margin-left: 28px;
+  border: none;
+  border-radius: 10px; 
+  transition: 1s;
+  box-shadow: 0px 0px 17px 10px red;
+  Font-size:18px;
+  }
