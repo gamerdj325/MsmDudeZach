@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+
+<Head>
+
+  <meta charset="utf-8">
+ 
+  <link href="Back.css" rel="stylesheet" type="text/css"/>
+  <script type="text/javascript" src='index.js'></script>
+  <title>Jetpack Joyride</title>
+  
+ 
+<link rel="icon" type="image/png" href="https://upload.wikimedia.org/wikipedia/en/9/90/Jetpack_Joyride_iOS.png"> 
+</Head>
+
+<body>
+
+  <center>
+     <div class="div">
+<embed class="embed" src="https://html5.gamedistribution.com/c1d742d5feda42d981ff07eab0c809de/?gd_sdk_referrer_url=https://gamedistribution.com/games/jetpack-joyride-1" style="height: 650px; width: 1300px;">
+     </div>
+        
+    <button onclick="window.location.href = '../index.html';" class="Back">Back</button>
+  
+    <button class="fullscreen">Fullscreen</button>
+
+ 
+</center>
+<script>
+const BUTTON = document.querySelector('.fullscreen')
+const EMBED = document.querySelector('.embed')
+
+const toggleFullscreen = () => {
+  if (document.fullscreenElement)
+    document.exitFullscreen()
+  else
+    EMBED.requestFullscreen()
+}
+
+BUTTON.addEventListener('click', toggleFullscreen)
+</script>
+</body>
+
+
