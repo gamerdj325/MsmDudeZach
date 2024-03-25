@@ -14,6 +14,6 @@
 <img src="Pictures/Preview.png">
 <h2>New Zachs Math beta</h2>
 
-<img src="Picture/NewerPreview.png">
+<img src="Picture/Newer Preview.png">
 
 <p>Bawlz</p>
