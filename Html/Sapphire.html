@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+
+<Head>
+
+  <meta charset="utf-8">
+ 
+  <link href="Back.css" rel="stylesheet" type="text/css"/>
+  <title>Pokemon Sapphire</title>
+  
+ 
+<link rel="icon" type="image/png" href="https://www.pokemon.com/favicon.ico"> 
+</Head>
+
+<body>
+
+  <center>
+     <div class="div">
+<embed class="embed" src="https://w8.snokido.com/games/retro/gba/index.html?g=pokemon-saphir-en&v=3" style="height: 650px; width: 1300px;">
+     </div>
+        
+    <button onclick="window.location.href = '../index.html';" class="Back">Back</button>
+  
+    <button class="fullscreen">Fullscreen</button>
+
+ 
+</center>
+<script>
+const BUTTON = document.querySelector('.fullscreen')
+const EMBED = document.querySelector('.embed')
+
+const toggleFullscreen = () => {
+  if (document.fullscreenElement)
+    document.exitFullscreen()
+  else
+    EMBED.requestFullscreen()
+}
+
+BUTTON.addEventListener('click', toggleFullscreen)
+</script>
+</body>
+
+
