@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+
+<Head>
+
+  <meta charset="utf-8">
+ 
+  <link href="Back.css" rel="stylesheet" type="text/css"/>
+  <title>Mr Racer</title>
+  
+ 
+<link rel="icon" type="image/png" href="https://imgur.com/7cBXWs8"> 
+</Head>
+
+<body>
+
+  <center>
+     <div class="div">
+<embed class="embed" src="https://html5.gamedistribution.com/a42cb23aca9647b3840f8a7dca61fde5/?gd_sdk_referrer_url=https://gamedistribution.com/games/mr-racer-car-racing" style="height: 650px; width: 1300px;">
+     </div>
+        
+    <button onclick="window.location.href = '../index.html';" class="Back">Back</button>
+  
+    <button class="fullscreen">Fullscreen</button>
+
+ 
+</center>
+<script>
+const BUTTON = document.querySelector('.fullscreen')
+const EMBED = document.querySelector('.embed')
+
+const toggleFullscreen = () => {
+  if (document.fullscreenElement)
+    document.exitFullscreen()
+  else
+    EMBED.requestFullscreen()
+}
+
+BUTTON.addEventListener('click', toggleFullscreen)
+</script>
+</body>
+
+
