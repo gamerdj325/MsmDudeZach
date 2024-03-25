@@ -10,7 +10,10 @@
 
 <p>Trying to add fnaf 2</p>
 
-
+<h2>Old Zachs Math (alpha</h2>
 <img src="Pictures/Preview.png">
+<h2>New Zachs Math beta</h2>
+
+<img src="Picture/NewerPreview.png">
 
 <p>Bawlz</p>
