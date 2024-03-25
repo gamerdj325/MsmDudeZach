@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+
+<Head>
+
+  <meta charset="utf-8">
+ 
+  <link href="Back.css" rel="stylesheet" type="text/css"/>
+  <title>Moto X3M</title>
+  
+ 
+<link rel="icon" type="image/png" href="https://ik.imagekit.io/sjyfpsp1n/marketing/featuredGames/moto-x3m/figure.png"> 
+</Head>
+
+<body>
+
+  <center>
+     <div class="div">
+<embed class="embed" src="https://html5.gamedistribution.com/5b0abd4c0faa4f5eb190a9a16d5a1b4c/?gd_sdk_referrer_url=https://gamedistribution.com/games/moto-x3m-bike-race-game" style="height: 650px; width: 1300px;">
+     </div>
+        
+    <button onclick="window.location.href = '../index.html';" class="Back">Back</button>
+  
+    <button class="fullscreen">Fullscreen</button>
+
+ 
+</center>
+<script>
+const BUTTON = document.querySelector('.fullscreen')
+const EMBED = document.querySelector('.embed')
+
+const toggleFullscreen = () => {
+  if (document.fullscreenElement)
+    document.exitFullscreen()
+  else
+    EMBED.requestFullscreen()
+}
+
+BUTTON.addEventListener('click', toggleFullscreen)
+</script>
+</body>
+
+
