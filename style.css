@@ -23,8 +23,8 @@ Body{
   box-shadow: 0px 0px 15px 10px blue;
   }
   .Credits{
-  float: left; 
-  margin-top: 30px;
+  float: middle; 
+  margin-top: 50px;
   cursor: pointer; 
   border: none;
   width: 110px;
@@ -376,4 +376,91 @@ Body{
   box-shadow: 0px 0px 15px 10px blue;
   transform:scale(1.1,1.1);
   cursor: pointer;
+}
+.Adventure{
+  Width: 110px;
+  margin-top:25px; 
+  height: 150px;
+  border: none;
+  border-radius: 10px; 
+  transition: 1s;
+  box-shadow: 0px 0px 17px 10px red;
+  Font-size:18px;
+  Background-color: rgb(252,227,142); 
+}
+.Adventure:hover {
+  box-shadow: 0px 0px 15px 10px blue;
+  transform:scale(1.1,1.1);
+  cursor: pointer;
+}
+.X3M{
+  Width: 110px;
+  margin-left:28px; 
+  height: 150px;
+  border: none;
+  border-radius: 10px; 
+  transition: 1s;
+  box-shadow: 0px 0px 17px 10px red;
+  Font-size:20px;
+  Background-color: rgba(39,147,212); 
+}
+.X3M:hover {
+  box-shadow: 0px 0px 15px 10px blue;
+  transform:scale(1.1,1.1);
+  cursor: pointer;
+}
+.Racer{
+  Width: 110px;
+  margin-left:28px; 
+  height: 150px;
+  border: none;
+  border-radius: 10px; 
+  transition: 1s;
+  box-shadow: 0px 0px 17px 10px red;
+  Font-size:23px;
+  Background-color: rgba(0,0,0); 
+  Color: white;
+  position: relative;
+  top: 10px;
+}
+.Racer:hover {
+  box-shadow: 0px 0px 15px 10px blue;
+  transform:scale(1.1,1.1);
+  cursor: pointer; 
+}
+.Ant{
+  Width: 110px;
+  margin-left:28px; 
+  height: 150px;
+  border: none;
+  border-radius: 10px; 
+  transition: 1s;
+  box-shadow: 0px 0px 17px 10px red;
+  Font-size:23px;
+  Background-color: rgb(255,181,0); 
+  position: relative;
+  top: -8px;
+}
+.Ant:hover {
+  box-shadow: 0px 0px 15px 10px blue;
+  transform:scale(1.1,1.1);
+  cursor: pointer; 
+}
+.Sapphire{
+  Width: 110px;
+  margin-left:28px; 
+  height: 150px;
+  border: none;
+  border-radius: 10px; 
+  transition: 1s;
+  box-shadow: 0px 0px 17px 10px red;
+  Font-size:23px;
+  Background-color: rgb(26,100,172); 
+  position: relative;
+  top: -8px;
+}
+.Sapphire:hover {
+  box-shadow: 0px 0px 15px 10px blue;
+  transform:scale(1.1,1.1);
+  cursor: pointer; 
 }
